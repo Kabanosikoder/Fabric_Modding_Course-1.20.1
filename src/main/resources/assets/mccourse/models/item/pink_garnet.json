@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layers0": "mccourse:item/pink_garnet"
+    "layer0": "mccourse:item/pink_garnet"
   }
 }
