@@ -15,6 +15,8 @@ public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK))); // .create() will require you to fill in multiple required fields such as hardness, sounds etc...
                                              // almost always use .copyof since you can easily copy another block
+    public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
+        new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
     private static Block registerBlock (String name, Block block){
         registerBlockItem(name, block);
