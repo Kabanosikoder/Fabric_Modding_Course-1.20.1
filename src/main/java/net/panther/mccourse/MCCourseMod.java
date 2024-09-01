@@ -2,6 +2,7 @@ package net.panther.mccourse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.panther.mccourse.block.ModBlocks;
 import net.panther.mccourse.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class MCCourseMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

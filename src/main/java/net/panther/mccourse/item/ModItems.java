@@ -9,6 +9,7 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.panther.mccourse.block.ModBlocks;
 
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet",
@@ -23,6 +24,8 @@ public class ModItems {
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(PINK_GARNET);
         entries.add(RAW_PINK_GARNET);
+
+        entries.add(ModBlocks.PINK_GARNET_BLOCK);
     }
 
     public static void registerModItems() {
