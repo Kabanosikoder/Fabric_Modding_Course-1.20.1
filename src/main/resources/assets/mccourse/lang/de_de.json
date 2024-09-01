@@ -1,0 +1,11 @@
+{
+  "item.mccourse.pink_garnet": "Rosa Granat",
+  "item.mccourse.raw_pink_garnet": "Roher Rosa Granat",
+  "block.mccourse.pink_garnet_block": "Rosa Garner Stein",
+  "block.mccourse.raw_pink_garnet_block": "Roher Rosa Garner Stein",
+  "itemgroup.pink_garnet_group": "Rosa Granat Stück",
+  "block.mccourse.pink_garnet_ore": "Rosa Granat Erz",
+  "block.mccourse.deepslate_pink_garnet_ore": "Deepslate Rosa Granat Erz",
+  "block.mccourse.nether_pink_garnet_ore": "Nether Rosa Granat Erz",
+  "block.mccourse.end_stone_pink_garnet_ore": "Endstein Rosa Garner Erz"
+}
