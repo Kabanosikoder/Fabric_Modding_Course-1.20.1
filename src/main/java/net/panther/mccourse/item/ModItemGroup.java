@@ -17,6 +17,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.PINK_GARNET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.METAL_DETECTOR);
                           // the order in which you add the items is the order
                          // that MC adds them into the item tab
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
