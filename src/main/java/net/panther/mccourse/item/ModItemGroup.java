@@ -18,6 +18,7 @@ public class ModItemGroup {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.PEAT_BRICK);
                           // the order in which you add the items is the order
                          // that MC adds them into the item tab
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
@@ -28,6 +29,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.END_STONE_PINK_GARNET_ORE);
 
                         entries.add(ModBlocks.SOUND_BLOCK);
+
 
                     }).build());
 
