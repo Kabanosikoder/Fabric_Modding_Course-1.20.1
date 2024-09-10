@@ -30,6 +30,9 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.SOUND_BLOCK);
 
+                        entries.add((ModBlocks.PINK_GARNET_SLAB));
+                        entries.add((ModBlocks.PINK_GARNET_STAIRS));
+
 
                     }).build());
 
