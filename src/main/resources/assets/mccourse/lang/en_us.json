@@ -6,7 +6,13 @@
   "item.mccourse.peat_brick": "Peat Brick",
 
   "block.mccourse.pink_garnet_block": "Pink Garnet Block",
+  "block.mccourse.raw_pink_garnet_block": "Raw Pink Garnet Block",
+
   "block.mccourse.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.mccourse.pink_garnet_slab": "Pink Garnet Slab",
+  "block.mccourse.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.mccourse.pink_garnet_button": "Pink Garnet Button",
+
   "itemgroup.pink_garnet_group": "Pink Garnet Items",
 
   "block.mccourse.sound_block": "Sound Block",
@@ -19,8 +25,6 @@
 "item.mccourse.metal_detector.no_valuables": "No Valuables found :(",
 "tooltip.mccourse.metal_detector.tooltip.shift": "Right Click on Blocks to find valuables",
 "tooltip.mccourse.metal_detector.tooltip": "Press §eSHIFT§r for more Info",
-"tooltip.mccourse.sound_block": "Plays a horrid sound when walked on or right clicked",
+"tooltip.mccourse.sound_block": "Plays a horrid sound when walked on or right clicked"
 
-  "block.mccourse.pink_garnet_slab": "Pink Garnet Slab",
-  "block.mccourse.raw_pink_garnet_block": "Raw Pink Garnet Block"
 }
