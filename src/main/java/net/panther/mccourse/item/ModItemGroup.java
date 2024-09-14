@@ -15,6 +15,7 @@ public class ModItemGroup {
             new Identifier(MCCourseMod.MOD_ID, "pink_garnet_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.pink_garnet_group"))
                     .icon(() -> new ItemStack(ModItems.PINK_GARNET)).entries((displayContext, entries) -> {
+                        // adds entries to the Item Group in the creative mode tab
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.METAL_DETECTOR);
@@ -34,6 +35,11 @@ public class ModItemGroup {
                         entries.add((ModBlocks.PINK_GARNET_STAIRS));
                         entries.add((ModBlocks.PINK_GARNET_BUTTON));
                         entries.add((ModBlocks.PINK_GARNET_PRESSURE_PLATE));
+                        entries.add((ModBlocks.PINK_GARNET_FENCE));
+                        entries.add((ModBlocks.PINK_GARNET_FENCE_GATE));
+                        entries.add((ModBlocks.PINK_GARNET_WALL));
+                        entries.add((ModBlocks.PINK_GARNET_DOOR));
+                        entries.add((ModBlocks.PINK_GARNET_TRAP_DOOR));
 
 
                     }).build());

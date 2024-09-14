@@ -7,6 +7,7 @@ import net.minecraft.item.FoodComponent;
 import net.minecraft.item.FoodComponents;
 
 public class ModFoodComponents {
-    public static FoodComponent CAULIFLOWER = new FoodComponent.Builder().hunger(3).saturationModifier(0.5f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION), 0.5f).build();
+    // adds cauliflower consumable to the game
+    public static FoodComponent CAULIFLOWER = new FoodComponent.Builder().hunger(6).saturationModifier(0.9f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH), 0.6f).build();
 }
