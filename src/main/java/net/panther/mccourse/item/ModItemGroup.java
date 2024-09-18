@@ -20,6 +20,12 @@ public class ModItemGroup {
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.PEAT_BRICK);
+
+                        entries.add(ModItems.PINK_GARNET_SWORD);
+                        entries.add(ModItems.PINK_GARNET_AXE);
+                        entries.add(ModItems.PINK_GARNET_HOE);
+                        entries.add(ModItems.PINK_GARNET_SHOVEL);
+                        entries.add(ModItems.PINK_GARNET_PICKAXE);
                           // the order in which you add the items is the order
                          // that MC adds them into the item tab
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
@@ -40,6 +46,7 @@ public class ModItemGroup {
                         entries.add((ModBlocks.PINK_GARNET_WALL));
                         entries.add((ModBlocks.PINK_GARNET_DOOR));
                         entries.add((ModBlocks.PINK_GARNET_TRAP_DOOR));
+
 
 
                     }).build());

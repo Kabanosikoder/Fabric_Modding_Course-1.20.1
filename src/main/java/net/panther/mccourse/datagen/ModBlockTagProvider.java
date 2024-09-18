@@ -2,8 +2,11 @@ package net.panther.mccourse.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
 import net.panther.mccourse.block.ModBlocks;
 import net.panther.mccourse.util.ModTags;
 
@@ -45,14 +48,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.PINK_GARNET_BLOCK,
-                        ModBlocks.DEEPSLATE_PINK_GARNET_ORE,
                         ModBlocks.PINK_GARNET_ORE,
                         ModBlocks.END_STONE_PINK_GARNET_ORE);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.PINK_GARNET_ORE,
-                        ModBlocks.RAW_PINK_GARNET_BLOCK,
-                        ModBlocks.NETHER_PINK_GARNET_ORE);
+                        ModBlocks.RAW_PINK_GARNET_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.PINK_GARNET_WALL);
@@ -60,5 +61,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.PINK_GARNET_FENCE_GATE);
+
+        // Tag for custom tool material, Pink garnet
+        // lvl 5 is higher than netherite, lvl 4 is netherite etc...
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_5")))
+                .add(ModBlocks.NETHER_PINK_GARNET_ORE);
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_4")))
+                .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
     }
 }

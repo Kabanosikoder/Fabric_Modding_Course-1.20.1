@@ -3,9 +3,8 @@ package net.panther.mccourse.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.*;
 import net.panther.mccourse.MCCourseMod;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -25,6 +24,17 @@ public class ModItems {
 
     public static final Item PEAT_BRICK = registerItem("peat_brick",
             new Item(new FabricItemSettings()));
+
+    public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
+            new SwordItem(ModToolMaterial.PINK_GARNET,7,2f, new FabricItemSettings()));
+    public static final Item PINK_GARNET_PICKAXE = registerItem("pink_garnet_pickaxe",
+            new PickaxeItem(ModToolMaterial.PINK_GARNET,5,1f, new FabricItemSettings()));
+    public static final Item PINK_GARNET_AXE = registerItem("pink_garnet_axe",
+            new AxeItem(ModToolMaterial.PINK_GARNET,12,-2f, new FabricItemSettings()));
+    public static final Item PINK_GARNET_SHOVEL = registerItem("pink_garnet_shovel",
+            new ShovelItem(ModToolMaterial.PINK_GARNET,6,1,new FabricItemSettings()));
+    public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
+            new HoeItem(ModToolMaterial.PINK_GARNET,3,0f,new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
