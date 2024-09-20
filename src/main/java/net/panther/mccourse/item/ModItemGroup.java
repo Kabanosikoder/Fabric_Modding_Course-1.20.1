@@ -26,6 +26,7 @@ public class ModItemGroup {
                         entries.add(ModItems.PINK_GARNET_HOE);
                         entries.add(ModItems.PINK_GARNET_SHOVEL);
                         entries.add(ModItems.PINK_GARNET_PICKAXE);
+                        entries.add(ModItems.PINK_GARNET_PAXEL);
                           // the order in which you add the items is the order
                          // that MC adds them into the item tab
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);

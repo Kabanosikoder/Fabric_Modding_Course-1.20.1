@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.panther.mccourse.block.ModBlocks;
 import net.panther.mccourse.item.custom.MetalDetectorItem;
+import net.panther.mccourse.item.custom.PaxelItem;
 
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet",
@@ -35,6 +36,10 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.PINK_GARNET,6,1,new FabricItemSettings()));
     public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
             new HoeItem(ModToolMaterial.PINK_GARNET,3,0f,new FabricItemSettings()));
+
+    public static final Item PINK_GARNET_PAXEL = registerItem("pink_garnet_paxel",
+            new PaxelItem(ModToolMaterial.PINK_GARNET,1f,0f,new FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);

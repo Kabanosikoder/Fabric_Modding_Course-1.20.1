@@ -68,5 +68,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHER_PINK_GARNET_ORE);
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_4")))
                 .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE)
+                .forceAddTag(BlockTags.AXE_MINEABLE)
+                .forceAddTag(BlockTags.PICKAXE_MINEABLE)
+                .forceAddTag(BlockTags.SHOVEL_MINEABLE);
     }
 }
