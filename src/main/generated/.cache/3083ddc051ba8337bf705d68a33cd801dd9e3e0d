@@ -1,0 +1,10 @@
+// 1.20.1	2024-09-20T05:39:13.0305067	MCCourseMod/Tags for minecraft:block
+fa3c90ef2f04bd80e4981a947cd47514c15a93c9 data\minecraft\tags\blocks\needs_diamond_tool.json
+517632cca94e9946eb0ffa70b9c76633dbe1cf71 data\minecraft\tags\blocks\walls.json
+6958c2b1371fe782d8482cd8959c7cb4820339ae data\mccourse\tags\blocks\mineable\paxel.json
+03ee821265d83284e4cd34a4b2c9075b49ed2a6a data\fabric\tags\blocks\needs_tool_level_4.json
+054139939470485ffcc4479b643d9d6e0f51496d data\minecraft\tags\blocks\fences.json
+ac7381ec75628ff455e4e862ac61c12577e71c8f data\fabric\tags\blocks\needs_tool_level_5.json
+ec51c3da94e538ce331b30d6fe6172869206e1c6 data\minecraft\tags\blocks\mineable\pickaxe.json
+44c98cbccbbe6c963068d9855497e95103c11746 data\minecraft\tags\blocks\fence_gates.json
+78b821323f95d2a39da78c8e495f9ea41951b6f0 data\mccourse\tags\blocks\metal_detector_detectable_blocks.json
