@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.panther.mccourse.block.ModBlocks;
 import net.panther.mccourse.item.custom.MetalDetectorItem;
+import net.panther.mccourse.item.custom.ModArmorItem;
 import net.panther.mccourse.item.custom.ModPoisonSwordItem;
 import net.panther.mccourse.item.custom.PaxelItem;
 
@@ -42,13 +43,13 @@ public class ModItems {
             new PaxelItem(ModToolMaterial.PINK_GARNET,1f,0f,new FabricItemSettings()));
 
     public static final Item PINK_GARNET_HELMET = registerItem("pink_garnet_helmet",
-            new ArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PINK_GARNET_CHESTPLATE = registerItem("pink_garnet_chestplate",
-            new ArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item PINK_GARNET_LEGGINGS = registerItem("pink_garnet_leggings",
-            new ArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PINK_GARNET_BOOTS = registerItem("pink_garnet_boots",
-            new ArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.PINK_GARNET, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);
