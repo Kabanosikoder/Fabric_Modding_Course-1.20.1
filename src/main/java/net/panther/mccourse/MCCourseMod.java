@@ -3,6 +3,7 @@ package net.panther.mccourse;
 import net.fabricmc.api.ModInitializer;
 
 import net.panther.mccourse.block.ModBlocks;
+import net.panther.mccourse.enchantment.ModEnchantments;
 import net.panther.mccourse.item.ModItemGroup;
 import net.panther.mccourse.item.ModItems;
 import net.panther.mccourse.util.ModRegistries;
@@ -21,5 +22,6 @@ public class MCCourseMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();
+		ModEnchantments.registerModEnchantments();
 	}
 }
