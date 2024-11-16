@@ -29,7 +29,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
-            new ModPoisonSwordItem(ModToolMaterial.PINK_GARNET,7,2f, new FabricItemSettings()));
+            new ModPoisonSwordItem(ModToolMaterial.PINK_GARNET,2,-2f, new FabricItemSettings()));
     public static final Item PINK_GARNET_PICKAXE = registerItem("pink_garnet_pickaxe",
             new PickaxeItem(ModToolMaterial.PINK_GARNET,5,1f, new FabricItemSettings()));
     public static final Item PINK_GARNET_AXE = registerItem("pink_garnet_axe",
@@ -73,7 +73,7 @@ public class ModItems {
 
     public static void registerModItems() {
         MCCourseMod.LOGGER.info("Registering Mod Items for " + MCCourseMod.MOD_ID);
-
+        // jeb schlatt
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::itemGroupIngredients);
     }
 }
