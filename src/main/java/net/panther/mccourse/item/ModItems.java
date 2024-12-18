@@ -73,7 +73,7 @@ public class ModItems {
 
     public static void registerModItems() {
         MCCourseMod.LOGGER.info("Registering Mod Items for " + MCCourseMod.MOD_ID);
-        // jeb schlatt
+
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::itemGroupIngredients);
     }
 }
